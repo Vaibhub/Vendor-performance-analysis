@@ -8,27 +8,25 @@ Analyzing vendor efficiency and profitability to support strategic purchasing an
 ## 📌 Table of Contents
 
 ```html
-<a href="#overview">Overview</a>
-<a href="#business-problem">Business Problem</a>
-<a href="#dataset">Dataset</a>
-<a href="#tools--technologies">Tools & Technologies</a>
-<a href="#project-structure">Project Structure</a>
-<a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
-<a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-<a href="#research-questions--key-findings">Research Questions & Key Findings</a>
-<a href="#dashboard">Dashboard</a>
-<a href="#how-to-run-this-project">How to Run This Project</a>
-<a href="#final-recommendations">Final Recommendations</a>
-<a href="#author--contact">Author & Contact</a>
+Overview
+Business Problem
+Dataset
+Tools & Technologies
+Project Structure
+Data Cleaning & Preparation
+Exploratory Data Analysis (EDA)
+Research Questions & Key Findings
+Dashboard
+How to Run This Project
+Final Recommendations
+Author & Contact
 ```
 
 ---
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization.
-
-A complete data pipeline was built using **SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.**
+This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was built using **SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.**
 
 ---
 
@@ -85,13 +83,11 @@ vendor-performance-analysis/
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
-Removed transactions with:
+* Removed transactions with:
 
-* Gross Profit ≤ 0
-* Profit Margin ≤ 0
-* Sales Quantity = 0
-
-Performed additional preprocessing:
+ Gross Profit ≤ 0
+ Profit Margin ≤ 0
+ Sales Quantity = 0
 
 * Created summary tables with vendor-level metrics
 * Converted data types, Handled outliers, Merged lookup tables
@@ -122,7 +118,7 @@ Performed additional preprocessing:
 
 <h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
 
-* **Brands for Promotions:** 198 brands with low sales but high profit margins.
+* **    Brands for Promotions:** 198 brands with low sales but high profit margins.
 
 * **Top Vendors:** Top 10 vendors account for **65.69%** of purchases, indicating a risk of over-reliance.
 
@@ -143,14 +139,14 @@ A statistically significant difference in vendor profit margins indicates distin
 
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
-The Power BI Dashboard includes:
+* The Power BI Dashboard includes:
 
-* Vendor-wise Sales and Margins
-* Inventory Turnover
-* Bulk Purchase Savings
-* Performance Heatmaps
+ Vendor-wise Sales and Margins
+ Inventory Turnover
+ Bulk Purchase Savings
+ Performance Heatmaps
 
-! [Vendor Performance Dashboard](images/dashboard.png)
+! [Vendor Performance Dashboard](images\dashboard.png)
 
 ---
 
@@ -202,13 +198,12 @@ dashboard/vendor_performance_dashboard.pbix
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-**Vaibhav agarwal**
+**Vaibhav agarwal**\n
 **Data Analyst**
 
-📧 Email: [vaibhavagarwal582@gmail.com
+📧 Email: [vaibhavagarwal582@gmail.com] \n
 🔗 [LinkedIn](https://www.linkedin.com/in/vaibhavagarwal582/)
 
-🔗 **Portfolio**
 
 ```
 ```
